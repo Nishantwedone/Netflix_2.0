@@ -15,6 +15,35 @@ npm i react-router-dom
 make appRouter in body.js
 make body page and header
 npm i react-icons
+make frontend part
+
+
+make backend folder
+open new terminal 
+cd backend
+npm init
+project name netflix and sab ke liye enter press krdo
+npm i express mongoose
+step1: create server first
+ "type":"module", add this in package.json in backend
+npm i nodemon
+"dev":"nodemon index.js", add this in script in package.json
+
+open new terminal
+cd backend
+npm i dotenv bcryptjs cookie-parser jsonwebtoken
+make .env file for port no
+make models folder and userschema.js file in that and also import mongoose in that file
+make schema for name,email,pass
+make controllers folder and user.js file in that
+make utils foldes and databas.js
+make databaseConnection in that
+call databaseConnection in index.js
+config dotenv in index.js
+make middlewares in index.js
+make userRoute in routes 
+
+
 
 
 
