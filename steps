@@ -1,0 +1,24 @@
+npm create-react-app app name
+cd app name
+npm start
+remove unnecesaary folders and files 
+contain only initially like app.js, index.css, index.js
+add tailwind css
+npm install -D tailwindcss
+npx tailwindcss init
+add in tailwind config.js me "./src/**/*.{html,js}"
+add these in index.css- @tailwind base;
+                        @tailwind components;
+                        @tailwind utilities;        
+make component folder
+npm i react-router-dom
+make appRouter in body.js
+make body page and header
+npm i react-icons
+
+
+
+
+
+152.59.108.64
+mongodb+srv://nishantkumargupta728:netflix@cluster0.nltye.mongodb.net/
